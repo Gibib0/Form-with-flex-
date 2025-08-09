@@ -41,6 +41,7 @@ p {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
+	margin-bottom: 0;
 }
 
 input[type='text'], 
@@ -52,3 +53,37 @@ input[type='password'] {
 	border-radius: 3px;
 	border: none;
 }
+
+.join-as-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 15px 35px 15px;
+    width: calc(100% - 70px);
+}
+
+.join-option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    border: 1px solid white;
+    padding: 15px;
+    gap: 15px;
+    width: 100%;
+}
+ .info {
+	display: flex;
+	flex-direction: column;
+ }
+
+ .info > label {
+	font-size: 20px;
+	word-spacing: 5px;
+ }
+
+ .info > span {
+	font-size: 13px;
+ }
