@@ -67,13 +67,14 @@ input[type='password'] {
 .join-option {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     color: white;
     border: 1px solid white;
     padding: 15px;
     gap: 15px;
     width: 100%;
 }
+
  .info {
 	display: flex;
 	flex-direction: column;
@@ -94,7 +95,7 @@ input[type='password'] {
 	margin: 15px 35px 15px;
 	width: calc(100% - 70px);
 	gap: 15px;
-	padding: 15px;
+	padding: 5px 15px 15px;
 }
 
 .checkbox-label {
