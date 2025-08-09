@@ -77,13 +77,27 @@ input[type='password'] {
  .info {
 	display: flex;
 	flex-direction: column;
- }
+}
 
- .info > label {
+.info > label {
 	font-size: 20px;
 	word-spacing: 5px;
- }
+}
 
- .info > span {
+.info > span {
 	font-size: 13px;
- }
+}
+
+.checkbox-container {
+	display: flex;
+	align-items: center;
+	margin: 0 35px 15px;
+	width: calc(100% - 70px);
+	gap: 15px;
+	padding: 15px;
+}
+
+.checkbox-label {
+	font-size: 13px;
+	color: white;
+}
